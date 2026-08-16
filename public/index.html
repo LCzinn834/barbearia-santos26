@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Santos Barbearia | Barbearia Premium em Ipatinga - MG</title>
+  <meta name="description" content="Santos Barbearia em Ipatinga - MG. Cortes masculinos, barba e combos com acabamento premium. Agende seu horário pelo WhatsApp." />
+  <meta property="og:title" content="Santos Barbearia | Barbearia Premium em Ipatinga - MG" />
+  <meta property="og:description" content="Cortes masculinos, barba e combos com acabamento premium. Agende seu horário pelo WhatsApp." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a href="#topo" class="brand" aria-label="Santos Barbearia - início">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/>
+            <line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>SANTOS</strong>
+          <em>BARBEARIA</em>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5531986663159?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-gold header-cta" target="_blank" rel="noopener">Agendar horário</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+      <a href="https://wa.me/5531986663159?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-gold" target="_blank" rel="noopener">Agendar horário</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-slideshow" id="heroSlideshow">
+          <div class="hero-slide is-active" style="background-image: url('images/corte-1.jpg')"></div>
+          <div class="hero-slide" style="background-image: url('images/corte-3.jpg')"></div>
+          <div class="hero-slide" style="background-image: url('images/corte-4.jpg')"></div>
+          <div class="hero-slide" style="background-image: url('images/corte-2.jpg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <span class="eyebrow">Ipatinga &bull; Minas Gerais</span>
+        <h1>O corte que <span class="gold">define</span> o seu estilo.</h1>
+        <p class="hero-sub">Tradição, precisão e atitude. Na Santos Barbearia cada detalhe é pensado para você sair com a melhor versão do seu visual.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5531986663159?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-gold" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.53 0-3.03-.41-4.34-1.19l-.31-.18-3.11.82.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23z"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn-outline">Ver serviços</a>
+        </div>
+        <div class="hero-badges">
+          <div class="badge">
+            <div class="stars" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+            <span>Nota máxima dos clientes</span>
+          </div>
+          <div class="badge">
+            <strong>Terça a Sábado</strong>
+            <span>Das 9h às 19h</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Sobre ===== -->
+    <section class="section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="images/corte-1.jpg" alt="Cliente com corte pompadour texturizado e barba alinhada na Santos Barbearia" loading="lazy" />
+          <div class="about-media-tag">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>5.0 &bull; Clientes satisfeitos</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="eyebrow">Sobre nós</span>
+          <h2>Mais que um corte, uma experiência.</h2>
+          <p>A <strong>Santos Barbearia</strong> nasceu em Ipatinga com um propósito claro: entregar cortes masculinos de alto nível em um ambiente confortável, moderno e acolhedor. Aqui, técnica e estilo caminham juntos.</p>
+          <p>Do clássico ao contemporâneo, cuidamos de cada detalhe — do cabelo à barba — para que você saia sempre confiante e no seu melhor. Atendimento personalizado, produtos de qualidade e aquele acabamento impecável que faz a diferença.</p>
+          <ul class="about-list">
+            <li>Profissionais experientes e apaixonados pelo ofício</li>
+            <li>Ambiente climatizado e higienizado</li>
+            <li>Acabamento premium em cada serviço</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Serviços ===== -->
+    <section class="section section-alt" id="servicos">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">O que fazemos</span>
+          <h2>Nossos serviços</h2>
+          <p class="section-desc">Escolha o serviço ideal para o seu estilo. Todos com acabamento cuidadoso e produtos de primeira.</p>
+        </div>
+        <div class="services-grid services-grid-3">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Corte de Cabelo</h3>
+            <p>Cortes clássicos e modernos, degradê, na tesoura ou máquina — do jeito que combina com você.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v6a8 8 0 0 1-16 0V4z"/><line x1="8" y1="4" x2="8" y2="9"/><line x1="12" y1="4" x2="12" y2="9"/><line x1="16" y1="4" x2="16" y2="9"/></svg>
+            </div>
+            <h3>Barba</h3>
+            <p>Modelagem, aparo e toalha quente para uma barba alinhada, hidratada e impecável.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 13c3-4 7-6 10-6s8 2 10 6"/><path d="M6 11.5c2-1.5 4-2 6-2s4 .5 6 2"/></svg>
+            </div>
+            <h3>Sobrancelha</h3>
+            <p>Alinhamento na navalha para finalizar o visual com harmonia e cuidado.</p>
+          </article>
+        </div>
+        <div class="services-cta">
+          <a href="https://wa.me/5531986663159?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-gold" target="_blank" rel="noopener">Agendar agora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Galeria ===== -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Nossos trabalhos</span>
+          <h2>Galeria</h2>
+          <p class="section-desc">Alguns dos cortes feitos aqui na Santos Barbearia.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="images/corte-1.jpg" alt="Corte pompadour texturizado com degradê e barba" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="images/corte-2.jpg" alt="Corte infantil com topete e risco lateral" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="images/corte-3.jpg" alt="Corte volumoso estilo pompadour com degradê nas laterais" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="images/corte-4.jpg" alt="Corte texturizado com risco e degradê em ambiente de barbearia" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Avaliações ===== -->
+    <section class="section section-alt" id="avaliacoes">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">O que dizem</span>
+          <h2>Avaliações</h2>
+          <div class="rating-summary">
+            <span class="rating-number gold">5.0</span>
+            <span class="stars big" aria-label="Avaliação média 5 de 5 estrelas">★★★★★</span>
+            <span class="rating-count">Nota máxima dos nossos clientes</span>
+          </div>
+        </div>
+        <div class="reviews-grid">
+          <blockquote class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>"Melhor barbearia de Ipatinga! Atendimento nota 10 e o corte sempre impecável. Recomendo demais."</p>
+            <footer>— Lucas M.</footer>
+          </blockquote>
+          <blockquote class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>"Profissional caprichoso, ambiente top e preço justo. Virei cliente fiel, não troco por nada."</p>
+            <footer>— Rafael S.</footer>
+          </blockquote>
+          <blockquote class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>"Levo meu filho e sempre sai feliz com o corte. Atendimento paciente e muito atencioso."</p>
+            <footer>— Anderson P.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Localização + Horário ===== -->
+    <section class="section" id="localizacao">
+      <div class="container info-grid">
+        <div class="info-text">
+          <span class="eyebrow">Onde estamos</span>
+          <h2>Localização &amp; Horário</h2>
+          <div class="info-block">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Endereço</h3>
+              <p>Rua Campo Grande, nº 580 — Caravelas<br />Ipatinga - MG, CEP 35164-272</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg>
+            </div>
+            <div>
+              <h3>Horário de funcionamento</h3>
+              <p>Terça a Sábado<br /><strong>Das 9h às 19h</strong></p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h3>Telefone / WhatsApp</h3>
+              <p><a href="tel:+5531986663159">(31) 98666-3159</a></p>
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Rua+Campo+Grande+580+Caravelas+Ipatinga+MG" class="btn btn-outline" target="_blank" rel="noopener">Como chegar</a>
+        </div>
+        <div class="info-map">
+          <iframe
+            title="Mapa da Santos Barbearia"
+            src="https://www.google.com/maps?q=Rua%20Campo%20Grande%2C%20580%2C%20Caravelas%2C%20Ipatinga%20-%20MG%2C%2035164-272&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contato ===== -->
+    <section class="section section-alt" id="contato">
+      <div class="container contato-inner">
+        <span class="eyebrow">Fale com a gente</span>
+        <h2>Pronto para o próximo corte?</h2>
+        <p class="section-desc">Agende seu horário ou acompanhe nossos trabalhos nas redes sociais.</p>
+        <div class="contato-actions">
+          <a href="https://wa.me/5531986663159?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-gold" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.43 12.38c-.24.69-1.43 1.32-2 1.41-.51.07-1.16.1-1.87-.12-.43-.14-.98-.32-1.69-.63-2.98-1.29-4.93-4.29-5.08-4.49-.15-.2-1.22-1.62-1.22-3.08s.77-2.18 1.04-2.48c.28-.3.6-.37.8-.37h.57c.18.01.43-.07.67.51.25.6.85 2.07.92 2.22.07.15.12.32.02.52-.1.2-.15.33-.3.5-.15.17-.32.39-.45.52-.15.15-.3.31-.13.61.17.3.77 1.28 1.66 2.07 1.14 1.02 2.1 1.33 2.4 1.48.3.15.48.13.65-.07.17-.2.74-.87.94-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.23.57.35.08.12.08.72-.17 1.41z"/></svg>
+            WhatsApp
+          </a>
+          <a href="https://www.instagram.com/deivisson_santos26/" class="btn btn-outline" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-text">
+          <strong>SANTOS</strong>
+          <em>BARBEARIA</em>
+        </span>
+        <p>Estilo, precisão e atitude em cada corte. Ipatinga - MG.</p>
+        <div class="stars" aria-label="Avaliação 5 estrelas">★★★★★</div>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <p><a href="tel:+5531986663159">(31) 98666-3159</a></p>
+        <p><a href="https://wa.me/5531986663159" target="_blank" rel="noopener">WhatsApp</a></p>
+        <p><a href="https://www.instagram.com/deivisson_santos26/" target="_blank" rel="noopener">@deivisson_santos26</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Endereço</h4>
+        <p>Rua Campo Grande, nº 580<br />Caravelas — Ipatinga - MG<br />CEP 35164-272</p>
+      </div>
+      <div class="footer-col">
+        <h4>Horário</h4>
+        <p>Terça a Sábado<br />Das 9h às 19h</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="ano"></span> Santos Barbearia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Botão flutuante WhatsApp ===== -->
+  <a href="https://wa.me/5531986663159?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.43 12.38c-.24.69-1.43 1.32-2 1.41-.51.07-1.16.1-1.87-.12-.43-.14-.98-.32-1.69-.63-2.98-1.29-4.93-4.29-5.08-4.49-.15-.2-1.22-1.62-1.22-3.08s.77-2.18 1.04-2.48c.28-.3.6-.37.8-.37h.57c.18.01.43-.07.67.51.25.6.85 2.07.92 2.22.07.15.12.32.02.52-.1.2-.15.33-.3.5-.15.17-.32.39-.45.52-.15.15-.3.31-.13.61.17.3.77 1.28 1.66 2.07 1.14 1.02 2.1 1.33 2.4 1.48.3.15.48.13.65-.07.17-.2.74-.87.94-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.23.57.35.08.12.08.72-.17 1.41z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
